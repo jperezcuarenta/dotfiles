@@ -19,9 +19,14 @@
     "window.autoDetectColorScheme": false,
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
-    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "files.dialog.defaultPath": "",
     "workbench.startupEditor": "none",
     "editor.mouseWheelZoom": true,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "python.venvPath": "",
+    "python-envs.defaultEnvManager": "ms-python.python:conda",
+    "python-envs.defaultPackageManager": "ms-python.python:conda",
+
     "latex-workshop.latex.tools": [
         {
             "name": "latexmk",
@@ -73,7 +78,7 @@
             "tools": ["pdflatex"]
         },
         {
-            "name": "latexmk 🔃",
+            "name": "latexmk",
             "tools": ["latexmk"]
         },
         {
@@ -81,7 +86,7 @@
             "tools": ["xelatex"]
         },
         {
-            "name": "pdflatex ➞ bibtex ➞ pdflatex`×2",
+            "name": "pdflatex -> bibtex -> pdflatex x2",
             "tools": [
                 "pdflatex",
                 "bibtex",
@@ -90,7 +95,7 @@
             ]
         },
         {
-            "name": "xelatex ➞ bibtex ➞ xelatex`×2",
+            "name": "xelatex -> bibtex -> xelatex x2",
             "tools": [
                 "xelatex",
                 "bibtex",
